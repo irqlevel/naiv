@@ -1,0 +1,9 @@
+[identity]
+    uuid = "5678ba13-b54d-4fb1-b93f-7ca0afc0a81b"
+    host = "127.0.0.1:55555"
+
+[cluster]
+    hosts = ["127.0.0.1:55555", "127.0.0.1:55556", "127.0.0.1:55557"]
+
+[log]
+    file_name = "./naiv_storage_server.log"
